@@ -1,0 +1,15 @@
+Module Module1
+Sub Main()
+Dim obj As New sample
+obj.display()
+Console.ReadLine()
+End Sub
+Class sample
+Public Sub New()
+Console.WriteLine("This is Constructor")
+End Sub
+Sub display()
+Console.WriteLine("This is Method")
+End Sub
+End Class
+End Module
